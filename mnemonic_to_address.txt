@@ -1,0 +1,21 @@
+from bip_utils import (
+    Bip39SeedGenerator, Bip39MnemonicValidator,
+    Bip84, Bip84Coins, Bip44Changes
+)
+
+mnemonic = "dwarf oxygen mercy problem pluck fantasy column doll thumb jaguar siege weasel"
+
+# Validate mnemonic
+if not Bip39MnemonicValidator().IsValid(mnemonic):
+    raise ValueError("Invalid mnemonic phrase")
+
+# Generate seed
+seed_bytes = Bip39SeedGenerator(mnemonic).Generate()
+
+# Create BIP84 wallet for Bitcoin mainnet
+bip84_wallet = Bip84.FromSeed(seed_bytes, Bip84Coins.BITCOIN)
+
+# Derive address at m/84'/0'/0'/0/0
+address = bip84_wallet.Purpose().Coin().Account(0).Change(Bip44Changes.CHAIN_EXT).AddressIndex(0).PublicKey().ToAddress()
+
+print("Bech32 Address:", address)

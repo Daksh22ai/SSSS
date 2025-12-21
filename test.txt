@@ -1,0 +1,508 @@
+Test - 1:
+
+share_A = "brother try bounce divert kick suspect pitch fruit bacon meadow degree then"  # x=1
+share_B = "net bird excess arrive perfect enlist embrace earn stone waste guess document"              # x=3
+
+true_share_C = "answer depend expand canoe author stool sphere medal excuse castle increase smile"        # x=5
+
+true_share_C = "shy seat oxygen alert gather better slide chest satoshi bracket exotic firm"   # x=10
+
+true_share_C = "shop frog flavor absurd include unable banner burger hint boil phone electric" # x=11
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=9
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=13
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=15
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+Test - 2:
+
+share_A = "brother book tunnel foil shiver hover yard reason noble jeans verify change"  # x=1
+share_B = "medal level pumpkin fee wisdom tower topic noble jaguar lazy patch draw"              # x=3
+
+true_share_C = "gift blood woman empty attack direct unveil voice creek useful learn blame"        # x=9
+
+true_share_C = "claw ready congress border winner lend swamp hobby gesture laptop point slight"   # x=13
+
+true_share_C = "royal cloud habit blame screen waste science enough loop inquiry vivid quiz" # x=15
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=9
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=13
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=3, x3=15
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=183, c2=126  → present, freq=284
+byte  1: c1=139, c2=162  → present, freq=50
+byte  2: c1=207, c2= 40  → present, freq=50
+byte  3: c1=206, c2= 96  → present, freq=50
+byte  4: c1=146, c2= 46  → present, freq=50
+byte  5: c1=239, c2=160  → present, freq=50
+byte  6: c1=111, c2=213  → present, freq=284
+byte  7: c1=107, c2=188  → present, freq=50
+byte  8: c1= 42, c2=185  → present, freq=50
+byte  9: c1= 92, c2=217  → present, freq=50
+byte 10: c1= 68, c2=228  → present, freq=50
+byte 11: c1= 41, c2= 44  → present, freq=50
+byte 12: c1=  8, c2=239  → present, freq=50
+byte 13: c1=209, c2= 32  → present, freq=50
+byte 14: c1= 75, c2=113  → present, freq=50
+byte 15: c1= 28, c2=175  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+Test - 3:
+
+Got exception 
+
+✅ GF(256) sanity check passed.
+x1=2, x2=6, x3=8
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 65, c2=249  → present, freq=50
+byte  1: c1=163, c2=191  → present, freq=50
+byte  2: c1=162, c2=188  → present, freq=50
+byte  3: c1= 31, c2= 76  → present, freq=50
+byte  4: c1=183, c2= 62  → present, freq=50
+byte  5: c1=255, c2=191  → ❌ MISSING in fingerprint
+byte  6: c1= 41, c2= 54  → present, freq=50
+byte  7: c1=171, c2=116  → present, freq=50
+byte  8: c1=200, c2=154  → present, freq=50
+byte  9: c1= 23, c2= 81  → present, freq=50
+byte 10: c1=204, c2=231  → present, freq=284
+byte 11: c1= 15, c2=  0  → present, freq=2242
+byte 12: c1= 20, c2= 10  → present, freq=375
+byte 13: c1=203, c2=209  → present, freq=50
+byte 14: c1=241, c2=140  → present, freq=50
+byte 15: c1=145, c2=112  → present, freq=50
+
+Summary:
+  Present in fingerprint: 15 bytes
+  Missing in fingerprint: 1 bytes
+
+We should ignore this and move on to next one because the public share we have are generated by faulty code that don't generate 255.
+
+
+Test - 4:
+
+share_A = "sentence wrestle chronic subway wave solve angle bulk rib hip hello awake"  # x=1
+share_B = "ugly glass diary script student scrub arrest help oak mean stable prosper"              # x=4
+
+true_share_C = "february portion thought soon guide keen equip slide easily consider virus radio"        # x=6
+
+true_share_C = "predict derive then dynamic pulp wash eagle must baby sword choose unhappy"   # x=10
+
+true_share_C = "child laugh define liberty banner family thank stamp artefact proud cycle satoshi" # x=11
+
+✅ GF(256) sanity check passed.
+x1=1, x2=4, x3=6
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=192, c2= 78  → present, freq=284
+byte  1: c1=230, c2=174  → present, freq=50
+byte  2: c1=  1, c2=222  → present, freq=50
+byte  3: c1=164, c2=194  → present, freq=50
+byte  4: c1= 15, c2=237  → present, freq=284
+byte  5: c1=139, c2=144  → present, freq=50
+byte  6: c1= 45, c2=222  → present, freq=284
+byte  7: c1=147, c2=216  → present, freq=284
+byte  8: c1=156, c2=122  → present, freq=50
+byte  9: c1=161, c2= 19  → present, freq=50
+byte 10: c1=213, c2=230  → present, freq=50
+byte 11: c1= 49, c2= 44  → present, freq=50
+byte 12: c1= 91, c2=181  → present, freq=50
+byte 13: c1= 56, c2= 40  → present, freq=50
+byte 14: c1=228, c2=158  → present, freq=50
+byte 15: c1= 51, c2= 26  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=4, x3=10
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=192, c2= 78  → present, freq=284
+byte  1: c1=230, c2=174  → present, freq=50
+byte  2: c1=  1, c2=222  → present, freq=50
+byte  3: c1=164, c2=194  → present, freq=50
+byte  4: c1= 15, c2=237  → present, freq=284
+byte  5: c1=139, c2=144  → present, freq=50
+byte  6: c1= 45, c2=222  → present, freq=284
+byte  7: c1=147, c2=216  → present, freq=284
+byte  8: c1=156, c2=122  → present, freq=50
+byte  9: c1=161, c2= 19  → present, freq=50
+byte 10: c1=213, c2=230  → present, freq=50
+byte 11: c1= 49, c2= 44  → present, freq=50
+byte 12: c1= 91, c2=181  → present, freq=50
+byte 13: c1= 56, c2= 40  → present, freq=50
+byte 14: c1=228, c2=158  → present, freq=50
+byte 15: c1= 51, c2= 26  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=1, x2=4, x3=11
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1=192, c2= 78  → present, freq=284
+byte  1: c1=230, c2=174  → present, freq=50
+byte  2: c1=  1, c2=222  → present, freq=50
+byte  3: c1=164, c2=194  → present, freq=50
+byte  4: c1= 15, c2=237  → present, freq=284
+byte  5: c1=139, c2=144  → present, freq=50
+byte  6: c1= 45, c2=222  → present, freq=284
+byte  7: c1=147, c2=216  → present, freq=284
+byte  8: c1=156, c2=122  → present, freq=50
+byte  9: c1=161, c2= 19  → present, freq=50
+byte 10: c1=213, c2=230  → present, freq=50
+byte 11: c1= 49, c2= 44  → present, freq=50
+byte 12: c1= 91, c2=181  → present, freq=50
+byte 13: c1= 56, c2= 40  → present, freq=50
+byte 14: c1=228, c2=158  → present, freq=50
+byte 15: c1= 51, c2= 26  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+Test - 5:
+
+share_A = "number scout flip just flag knife debate boost burden scare else liquid"  # x=2
+share_B = "long surge spell know differ robot save pulp illness lucky screen draw"              # x=3
+
+
+# true_share_C = "forget claim carbon fold virus fit smile call calm lesson shuffle shaft"        # x=7
+
+true_share_C = "antenna mixture man strategy century call require motor spread slogan advance aisle"   # x=13
+
+true_share_C = "ankle asset wife what grief royal misery media episode obvious embark rookie" # x=14
+
+✅ GF(256) sanity check passed.
+x1=2, x2=3, x3=7
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 30, c2= 10  → present, freq=375
+byte  1: c1= 87, c2=244  → present, freq=50
+byte  2: c1=203, c2=169  → present, freq=50
+byte  3: c1= 24, c2= 56  → present, freq=50
+byte  4: c1= 14, c2=143  → present, freq=50
+byte  5: c1= 91, c2= 29  → present, freq=50
+byte  6: c1=122, c2= 37  → present, freq=50
+byte  7: c1=202, c2= 75  → present, freq=50
+byte  8: c1=129, c2=160  → present, freq=50
+byte  9: c1=223, c2= 58  → present, freq=50
+byte 10: c1= 36, c2=130  → present, freq=50
+byte 11: c1= 24, c2=119  → present, freq=50
+byte 12: c1= 38, c2=142  → present, freq=50
+byte 13: c1= 79, c2=209  → present, freq=50
+byte 14: c1= 56, c2= 30  → present, freq=50
+byte 15: c1=206, c2= 46  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=2, x2=3, x3=13
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 30, c2= 10  → present, freq=375
+byte  1: c1= 87, c2=244  → present, freq=50
+byte  2: c1=203, c2=169  → present, freq=50
+byte  3: c1= 24, c2= 56  → present, freq=50
+byte  4: c1= 14, c2=143  → present, freq=50
+byte  5: c1= 91, c2= 29  → present, freq=50
+byte  6: c1=122, c2= 37  → present, freq=50
+byte  7: c1=202, c2= 75  → present, freq=50
+byte  8: c1=129, c2=160  → present, freq=50
+byte  9: c1=223, c2= 58  → present, freq=50
+byte 10: c1= 36, c2=130  → present, freq=50
+byte 11: c1= 24, c2=119  → present, freq=50
+byte 12: c1= 38, c2=142  → present, freq=50
+byte 13: c1= 79, c2=209  → present, freq=50
+byte 14: c1= 56, c2= 30  → present, freq=50
+byte 15: c1=206, c2= 46  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=2, x2=3, x3=14
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 30, c2= 10  → present, freq=375
+byte  1: c1= 87, c2=244  → present, freq=50
+byte  2: c1=203, c2=169  → present, freq=50
+byte  3: c1= 24, c2= 56  → present, freq=50
+byte  4: c1= 14, c2=143  → present, freq=50
+byte  5: c1= 91, c2= 29  → present, freq=50
+byte  6: c1=122, c2= 37  → present, freq=50
+byte  7: c1=202, c2= 75  → present, freq=50
+byte  8: c1=129, c2=160  → present, freq=50
+byte  9: c1=223, c2= 58  → present, freq=50
+byte 10: c1= 36, c2=130  → present, freq=50
+byte 11: c1= 24, c2=119  → present, freq=50
+byte 12: c1= 38, c2=142  → present, freq=50
+byte 13: c1= 79, c2=209  → present, freq=50
+byte 14: c1= 56, c2= 30  → present, freq=50
+byte 15: c1=206, c2= 46  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+Test - 6:
+
+share_A = "program volume flame robot fossil hungry onion turkey tuition benefit elbow pelican"  # x=2
+share_B = "tissue recall midnight art detect achieve vehicle genuine phrase moon slender seed"              # x=7
+
+
+# true_share_C = "token divide economy merry cross evolve letter scan renew jealous myself spy"        # x=10
+
+# true_share_C = "cup drift muscle usage game meadow cannon daughter lobster exist case claim"   # x=13
+true_share_C = "couch coil pizza citizen note floor school hurdle void improve cable glow" # x=14
+
+✅ GF(256) sanity check passed.
+x1=2, x2=7, x3=10
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 91, c2=193  → present, freq=50
+byte  1: c1=175, c2=133  → present, freq=50
+byte  2: c1=232, c2=104  → present, freq=50
+byte  3: c1= 96, c2=190  → present, freq=50
+byte  4: c1=155, c2= 17  → present, freq=50
+byte  5: c1=216, c2= 84  → present, freq=284
+byte  6: c1=205, c2=159  → present, freq=50
+byte  7: c1= 76, c2=191  → present, freq=50
+byte  8: c1=251, c2=113  → present, freq=50
+byte  9: c1= 43, c2=242  → present, freq=50
+byte 10: c1=229, c2=199  → present, freq=50
+byte 11: c1=239, c2=229  → present, freq=50
+byte 12: c1=189, c2=238  → present, freq=50
+byte 13: c1=162, c2= 70  → present, freq=50
+byte 14: c1= 44, c2= 43  → present, freq=50
+byte 15: c1= 41, c2= 65  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=2, x2=7, x3=13
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 91, c2=193  → present, freq=50
+byte  1: c1=175, c2=133  → present, freq=50
+byte  2: c1=232, c2=104  → present, freq=50
+byte  3: c1= 96, c2=190  → present, freq=50
+byte  4: c1=155, c2= 17  → present, freq=50
+byte  5: c1=216, c2= 84  → present, freq=284
+byte  6: c1=205, c2=159  → present, freq=50
+byte  7: c1= 76, c2=191  → present, freq=50
+byte  8: c1=251, c2=113  → present, freq=50
+byte  9: c1= 43, c2=242  → present, freq=50
+byte 10: c1=229, c2=199  → present, freq=50
+byte 11: c1=239, c2=229  → present, freq=50
+byte 12: c1=189, c2=238  → present, freq=50
+byte 13: c1=162, c2= 70  → present, freq=50
+byte 14: c1= 44, c2= 43  → present, freq=50
+byte 15: c1= 41, c2= 65  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes
+
+
+✅ GF(256) sanity check passed.
+x1=2, x2=7, x3=14
+len(y1)=16, len(y2)=16, len(y3)=16
+
+Per-byte (c1, c2) and fingerprint lookup:
+
+byte  0: c1= 91, c2=193  → present, freq=50
+byte  1: c1=175, c2=133  → present, freq=50
+byte  2: c1=232, c2=104  → present, freq=50
+byte  3: c1= 96, c2=190  → present, freq=50
+byte  4: c1=155, c2= 17  → present, freq=50
+byte  5: c1=216, c2= 84  → present, freq=284
+byte  6: c1=205, c2=159  → present, freq=50
+byte  7: c1= 76, c2=191  → present, freq=50
+byte  8: c1=251, c2=113  → present, freq=50
+byte  9: c1= 43, c2=242  → present, freq=50
+byte 10: c1=229, c2=199  → present, freq=50
+byte 11: c1=239, c2=229  → present, freq=50
+byte 12: c1=189, c2=238  → present, freq=50
+byte 13: c1=162, c2= 70  → present, freq=50
+byte 14: c1= 44, c2= 43  → present, freq=50
+byte 15: c1= 41, c2= 65  → present, freq=50
+
+Summary:
+  Present in fingerprint: 16 bytes
+  Missing in fingerprint: 0 bytes

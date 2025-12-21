@@ -1,0 +1,68 @@
+from mnemonic import Mnemonic
+
+# GF(2^8) setup
+def _precompute_gf256_exp_log():
+    exp = [0] * 255
+    log = [0] * 256
+    poly = 1
+    for i in range(255):
+        exp[i] = poly
+        log[poly] = i
+        poly = (poly << 1) ^ poly
+        if poly & 0x100:
+            poly ^= 0x11B
+    return exp, log
+
+EXP_TABLE, LOG_TABLE = _precompute_gf256_exp_log()
+
+def gf_mul(a, b):
+    if a == 0 or b == 0:
+        return 0
+    return EXP_TABLE[(LOG_TABLE[a] + LOG_TABLE[b]) % 255]
+
+def gf_div(a, b):
+    if b == 0:
+        raise ZeroDivisionError()
+    if a == 0:
+        return 0
+    return gf_mul(a, EXP_TABLE[(-LOG_TABLE[b]) % 255])
+
+def gf_add(a, b):
+    return a ^ b
+
+def interpolate(points, x=0):
+    result = 0
+    for j in range(len(points)):
+        xj, yj = points[j]
+        num, den = 1, 1
+        for m in range(len(points)):
+            if m == j:
+                continue
+            xm = points[m][0]
+            num = gf_mul(num, gf_add(x, xm))
+            den = gf_mul(den, gf_add(xj, xm))
+        term = gf_mul(yj, gf_div(num, den))
+        result = gf_add(result, term)
+    return result
+
+# BIP39 wordlist
+mnemo = Mnemonic("english")
+wordlist = mnemo.wordlist
+word_to_index = {word: idx for idx, word in enumerate(wordlist)}
+
+def words_to_bytes(words):
+    indices = [word_to_index[word] for word in words]
+    binary = ''.join(f"{i:010b}" for i in indices)
+    return int(binary[:24], 2).to_bytes(3, byteorder='big')  # 3 bytes
+
+# 🔐 Input: 3 BIP39 words
+words = ["violin", "antenna", "ticket"]
+byte_values = list(words_to_bytes(words))
+
+# Treat as y-values at x = 1, 2, 3
+points = [(1, byte_values[0]), (2, byte_values[1]), (3, byte_values[2])]
+
+# Interpolate at x = 0 to get a₀
+a0 = interpolate(points, x=0)
+print(f"🧮 Reconstructed constant term a₀: {a0}")
+print("✅ Coefficient is 255!" if a0 == 255 else "❌ Coefficient is not 255.")
